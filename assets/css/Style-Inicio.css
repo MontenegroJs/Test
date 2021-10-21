@@ -87,7 +87,7 @@
 	padding: 80px 50px 50px;
 	box-shadow: 0 15px 30px rgba(0,0,0,0,08);
 	transition: 0.5s;
-	visibility: visible;
+	visibility: hidden;
 	min-width: 250px;
 }
 
