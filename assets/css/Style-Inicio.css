@@ -72,42 +72,6 @@
 	}
 }
 
-
-
-.Figuras {
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	background: #3988E6;
-	opacity: .3;
-	position: absolute;
-	z-index: 1;
-	left: 30%;
-	animation: Circulo 3s backwards infinite;
-}
-
-@keyframes Circulo {
-	0% {
-		bottom: 0;
-		opacity: 0;
-	}
-	50% {
-		opacity: 75%;
-	}
-	100% {
-		bottom: 100vh;
-		opacity: 0;
-	}
-}
-
-
-
-
-
-
-
-
-
 #Popup {
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -165,12 +129,10 @@ body {
 	cursor: url('../img/cursor/link-select.cur'), pointer;
 }
 
-//header {
-	border: 1px solid blue;
+header {
 }
 
 footer {
-	//border: 1px solid blue;
 	text-align: center;
 	margin-top: 40px;
 }
@@ -203,18 +165,12 @@ footer {
 }
 
 .in-flex {
+	/border: 1px solid red;
 	display: inline-flex;
 	flex: 1;
 	min-width: 250px;
 	margin-top: 30px;
-	max-width: 27em;
-}
-
-#F1, #F4 {
-	justify-content: right;
-}
-
-#F2, #F5 {
+	max-width: 25em;
 	justify-content: center;
 }
 
